@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import Products from "../products/Products";
 const Home = () => {
   return (
     <div className="hero">
@@ -19,7 +20,9 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Products/>
     </div>
+    
   );
 };
 
