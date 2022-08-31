@@ -25,26 +25,43 @@ const Products = () => {
 const Loading = () =>{
     return(
         <>
-            <h1>Loading...</h1>
+            <h1 className="text-center">Loading...</h1>
         </>
     )
 }
 const ShowProducts = () =>{
 return(
     <>
-    <div className="buttons d-flex justify-content-center">
+    <div className="buttons d-flex justify-content-center mb-5 pb-5">
     <button className="btn btn-outline-dark me-2">All</button>
     <button className="btn btn-outline-dark me-2">Men's Outfit</button>
     <button className="btn btn-outline-dark me-2">Women's Outfit</button>
     <button className="btn btn-outline-dark me-2">Electronics</button>
     <button className="btn btn-outline-dark me-2">Jewelery</button>
     </div>
+    {filter.map((product)=>{
+        return(
+            <>
+            <div className="col-md-3">
+            <div className="card">
+            <img src={product.image} alt={product.title}/>
+            <div className="card-body">
+            <h4 className="card-title">{product.title}</h4>
+            <p className="card-text"> $ {product.price}</p>
+        
+            </div>
+            </div>
+            </div>
+            </>
+        )
+
+    })}
     </>
 );
 
 };
   return (
-    <div className='container my-5 py-5' >
+    <div className='container my-5 py-5 ' >
     <div className='row'>
     <div className='col-12 mb-5'>
     <h1 className="display-6 fw-bolder text-center">Latest In Our Store</h1>
