@@ -43,12 +43,12 @@ return(
         return(
             <>
             <div className="col-md-3">
-            <div className="card">
-            <img src={product.image} alt={product.title}/>
+            <div className="card h-100 text-center p-4" key={product.id}>
+            <img className="card-img-top" src={product.image} alt={product.title}/>
             <div className="card-body">
-            <h4 className="card-title">{product.title}</h4>
+            <h4 className="card-title mb-o">{product.title.substring(0,12) }</h4>
             <p className="card-text"> $ {product.price}</p>
-        
+        <a href="#" className="btn btn-primary"> Go Somewhere</a>
             </div>
             </div>
             </div>
