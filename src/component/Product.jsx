@@ -27,6 +27,15 @@ const Product = () => {
             <div className="col-md-6">
             <img src={product.image} alt={product.title} height="400px" width="400px"/>
             </div>
+            <div className="col-md-6">
+            <h3 className="text-uppercase text-black-50">
+            {product.category}
+            </h3>
+            <h1 className="display-6">{product.title}</h1>
+            <p className="lead"> Rating {product.rating && product.rating.rate}
+            <i className="fa fa-star"></i>
+            </p>
+            </div>
             </>
         )
      }
