@@ -4,5 +4,11 @@ import App from './App'
 import './index.css'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../node_modules/font-awesome/css/font-awesome.min.css'
+import {BrowserRouter} from 'react-router-dom'
 
-ReactDOM.render(<App/>, document.getElementById('root'));
+ReactDOM.render(
+
+    <BrowserRouter>
+    <App />
+    </BrowserRouter>
+    , document.getElementById('root'));  

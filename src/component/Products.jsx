@@ -64,7 +64,7 @@ return(
             <div className="card-body">
             <h4 className="card-title mb-o">{product.title.substring(0,12) }</h4>
             <p className="card-text lead fw-bold"> $ {product.price}</p>
-        <a href="#" className="btn btn-outline-dark"> Buy Now</a>
+             <a href="#" className="btn btn-outline-dark"> Buy Now</a>
             </div>
             </div>
             </div>
