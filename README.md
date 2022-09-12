@@ -1,4 +1,22 @@
-# Getting Started with Create React App
+# Kips Collection
+# Description
+* This is a web based Ecommerce application where the users can sign up and purchase their needs online at comfort of there homes and get delivered to their homes
+# Skills and Techniques used
+* React
+* Redux
+* CSS
+* HTML
+* JaveScript
+# Demo
+This is the demo [link](https://kipscollection.netlify.app).
+# LICENCE
+* It has been licenced under the MIT licence
+# Contact Information
+* 0700768455
+* kipronoesau28@gmail.com
+
+
+# Prerequisite
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
