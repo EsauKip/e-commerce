@@ -10,7 +10,7 @@ export const addCart=(product)=>{
 
 export const gelCart=(product)=>{
     return{
-        type:"DELETE",
+        type:"DELITEM",
         payload:product
     }
 } 
